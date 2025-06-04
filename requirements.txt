@@ -1,0 +1,46 @@
+# Core ML & LLM
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.2
+langchain>=0.0.200
+llama-index>=0.6.0
+accelerate>=0.20.0
+
+# Vector Databases & Search
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+elasticsearch>=8.7.0
+
+# Web Development
+fastapi>=0.100.0
+uvicorn>=0.22.0
+streamlit>=1.24.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.6
+pymongo>=4.4.0
+motor>=3.2.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+beautifulsoup4>=4.12.0
+selenium>=4.10.0
+scrapy>=2.9.0
+python-docx>=0.8.11
+PyPDF2>=3.0.0
+Pillow>=9.5.0
+
+# Testing & Development
+pytest>=7.4.0
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.0.0
+
+# Deployment
+docker>=6.1.0
+gunicorn>=21.2.0 
