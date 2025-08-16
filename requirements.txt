@@ -1,46 +1,40 @@
-# Core ML & LLM
-torch>=2.0.0
-transformers>=4.30.0
-sentence-transformers>=2.2.2
-langchain>=0.0.200
-llama-index>=0.6.0
-accelerate>=0.20.0
+# Core Python packages
+python-dateutil>=2.8.2
+pytz>=2023.3
 
-# Vector Databases & Search
-chromadb>=0.4.0
-faiss-cpu>=1.7.4
-elasticsearch>=8.7.0
+# Database and data handling
+sqlite3  # Built into Python 3
+pandas>=1.5.0
+numpy>=1.21.0
 
-# Web Development
-fastapi>=0.100.0
-uvicorn>=0.22.0
-streamlit>=1.24.0
-python-multipart>=0.0.6
-pydantic>=2.0.0
+# Async and concurrency
+asyncio  # Built into Python 3.7+
+concurrent-futures  # Built into Python 3.2+
 
-# Database
-sqlalchemy>=2.0.0
-psycopg2-binary>=2.9.6
-pymongo>=4.4.0
-motor>=3.2.0
+# Logging and monitoring
+logging  # Built into Python
+structlog>=23.1.0
 
-# Data Processing
-pandas>=2.0.0
-numpy>=1.24.0
-scikit-learn>=1.2.0
-beautifulsoup4>=4.12.0
-selenium>=4.10.0
-scrapy>=2.9.0
-python-docx>=0.8.11
-PyPDF2>=3.0.0
-Pillow>=9.5.0
+# Testing and development
+pytest>=7.3.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+unittest-mock>=1.0.1
 
-# Testing & Development
-pytest>=7.4.0
-black>=23.7.0
-isort>=5.12.0
+# Type checking and linting
+mypy>=1.3.0
+black>=23.3.0
 flake8>=6.0.0
 
-# Deployment
-docker>=6.1.0
-gunicorn>=21.2.0 
+# Documentation
+sphinx>=6.2.0
+sphinx-rtd-theme>=1.2.0
+
+# Performance and profiling
+memory-profiler>=0.61.0
+psutil>=5.9.0
+
+# Optional: Advanced features
+# langchain>=0.0.200  # For LLM integration
+# openai>=0.28.0      # For OpenAI API integration
+# transformers>=4.30.0 # For local LLM models 
